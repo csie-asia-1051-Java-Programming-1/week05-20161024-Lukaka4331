@@ -1,46 +1,18 @@
-<<<<<<< HEAD
-ï»¿package ex;
+package ex;
 import java.util.Scanner;
-=======
-ï»¿package ex;import java.util.Scanner;
->>>>>>> 54285abad7d82da931ea667fcf2bfa26231a0737
 /*
- * Topic: æŸå€‹é™£åˆ—ä¸­å«æœ‰æ‰€æœ‰å­¸ç”Ÿçš„å­¸è™Ÿï¼Œä½†ä¸¦æ²’æœ‰æŒ‰ç…§å¤§å°æ¬¡åºæ’åˆ—ã€‚è«‹å¯«ä¸€ç¨‹å¼ä¾å­¸è™Ÿå¤§å°æ’åˆ—ä¸¦å°‡çµæœè¼¸å‡ºã€‚
+ * Topic: ¬Y­Ó°}¦C¤¤§t¦³©Ò¦³¾Ç¥Íªº¾Ç¸¹¡A¦ı¨Ã¨S¦³«ö·Ó¤j¤p¦¸§Ç±Æ¦C¡C½Ğ¼g¤@µ{¦¡¨Ì¾Ç¸¹¤j¤p±Æ¦C¨Ã±Nµ²ªG¿é¥X¡C
  * Date: 2016/10/24
- * Author: 105021044 é˜å²‘å“²
+ * Author: 105021044 ÄÁ§Â­õ
  */
 
 public class ex06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-          Scanner scn=new Scanner(System.in);
-          int n=scn.nextInt();
-          int data[]=new int [n];
-          int data1[]=new int [n];
-          int sum=0;
-          int c=-1;
-          for(int i=0;i<n;i++){
-        	  data[i]=scn.nextInt();
-          }
-          for(int i=0;i<n;i++){
-        	  for(int j=0;j<n;j++){
-        		while(data[j]>sum){
-        			sum=data[j];
-        			c=j;
-        		}
-        	}
-        	data1[i]=sum;
-        	data[c]=-1;
-        	sum=0;
-        	c=0;
-          }
-          for(int i=0;i<n;i++){
-        	  System.out.print(data1[i]+" ");
-          }
 
 		Scanner scn=new Scanner(System.in);
-		System.out.println("å¹¾ç­†è³‡æ–™??");
+		System.out.println("´Xµ§¸ê®Æ??");
 		int n=scn.nextInt();
 		int data[]=new int[n];		
         for(int i=0;i<n;i++){
@@ -55,7 +27,7 @@ public class ex06 {
 				}
 			}
 		}
-		System.out.print("å­¸è™Ÿæ’åº:");
+		System.out.print("¾Ç¸¹±Æ§Ç:");
 		for(int j=0;j<n;j++){
 			System.out.print(data[j]+" ");
 		}
